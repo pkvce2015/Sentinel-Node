@@ -5,7 +5,7 @@ A centralized, high-security home server architecture designed for \*\*Digital F
 
 \## 🏗️ System Architecture
 
-Sentinel-Node transforms a standard Intel i5/i7 hardware stack into a "Digital Vault" using a modular Docker-compose orchestration. 
+Sentinel-Node transforms a standard old Intel i3/i5/i7 hardware stack into a "Digital Vault" using a modular Docker-compose orchestration. 
 
 
 \### 🔍 Cyber Forensic Lab
