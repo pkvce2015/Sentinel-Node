@@ -59,38 +59,6 @@ Sentinel-Node/
 
 
 
-🚀 Deployment \& Maintenance
-
-This lab is designed for "Set and Forget" operational security.
-
-
-
-1\. Requirements
-
-Docker \& Docker Compose
-
-
-
-Tailscale (for Zero-Trust Remote Access)
-
-
-
-Intel i5/i7 Processor with VT-x enabled
-
-
-
-2\. Quick Start
-
-Bash
-
-\# Clone the repository
-
-git clone \[https://github.com/yourusername/Sentinel-Node.git](https://github.com/yourusername/Sentinel-Node.git)
-
-cd Sentinel-Node
-
-
-
 \# Launch the infrastructure
 
 docker-compose -f docker-compose-master.yml up -d
