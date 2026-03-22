@@ -49,17 +49,17 @@ Sentinel-Node/
 
 └── services/                   # Service Configuration Files
 
-&#x20;   ├── adguard/                # DNS Security Config
+   ├── adguard/                # DNS Security Config
 
-&#x20;   ├── vaultwarden/            # Encrypted Vault Data
+   ├── vaultwarden/            # Encrypted Vault Data
 
-&#x20;   ├── scrutiny/               # HDD Health Metrics
+   ├── scrutiny/               # HDD Health Metrics
 
-&#x20;   └── homepage/               # Dashboard Layouts
+   └── homepage/               # Dashboard Layouts
 
 
 
-\# Launch the infrastructure
+Launch the infrastructure
 
 docker-compose -f docker-compose-master.yml up -d
 
