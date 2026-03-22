@@ -10,29 +10,29 @@ Sentinel-Node transforms a standard old Intel i3/i5/i7 hardware stack into a "Di
 
 🔍 Cyber Forensic Lab
 
-\* \*\*FileBrowser:\*\* Remote management and ingestion of evidence for the 1TB Seagate HDD array.
+FileBrowser: Remote management and ingestion of evidence for the 1TB Seagate HDD array.
 
-\* \*\*Stirling-PDF:\*\* Privacy-first, locally-hosted PDF toolkit for forensic report sanitization.
+Stirling-PDF: Privacy-first, locally-hosted PDF toolkit for forensic report sanitization.
 
-\* \*\*Vaultwarden:\*\* Bitwarden-compatible server for encrypted investigation credential management.
+Vaultwarden: Bitwarden-compatible server for encrypted investigation credential management.
 
 
 🛡️ Network \& Infrastructure
 
-\* \*\*AdGuard Home:\*\* Network-wide DNS sinkhole for malware blocking and forensic traffic analysis.
+AdGuard Home: Network-wide DNS sinkhole for malware blocking and forensic traffic analysis.
 
-\* \*\*Scrutiny:\*\* Low-level S.M.A.R.T. monitoring and thermal auditing of physical storage media (/dev/sda).
+Scrutiny: Low-level S.M.A.R.T. monitoring and thermal auditing of physical storage media (/dev/sda).
 
-\* \*\*Netdata:\*\* Real-time, per-second kernel-level performance monitoring.
+Netdata: Real-time, per-second kernel-level performance monitoring.
 
-\* \*\*Watchtower:\*\* Automated container lifecycle management and security patching.
+Watchtower: Automated container lifecycle management and security patching.
 
 
 📸 Dashboard (Mission Control)
 
-!\[Dashboard](./dashboard.png)
+[Dashboard](./dashboard.png)
 
-\*Centralized management console via 'Homepage' showing real-time service heartbeats.\*
+Centralized management console via 'Homepage' showing real-time service heartbeats.\*
 
 
 📂 Project Structure
