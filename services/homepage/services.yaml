@@ -1,0 +1,16 @@
+- Cyber Forensic Lab:
+    - Files:
+        icon: filebrowser.png
+        href: http://{{IP_ADDRESS}}:8081
+        description: 1TB HDD Evidence Storage
+    - PDF Editor:
+        icon: stirling-pdf.png
+        href: http://{{IP_ADDRESS}}:8082
+
+- Infrastructure & Monitoring:
+    - AdGuard:
+        icon: adguard-home.png
+        href: http://{{IP_ADDRESS}}:8083
+    - HDD Health:
+        icon: scrutiny.png
+        href: http://{{IP_ADDRESS}}:8084

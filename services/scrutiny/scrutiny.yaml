@@ -1,0 +1,6 @@
+version: 1
+host:
+  id: "Sentinel-Node-i5"
+devices:
+  - device: /dev/sda
+    type: 'scsi'
