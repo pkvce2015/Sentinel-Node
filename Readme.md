@@ -1,14 +1,14 @@
-\# 🛡️ Sentinel-Node: Cyber Forensic \& Private Cloud Lab
+🛡️ Sentinel-Node: Cyber Forensic \& Private Cloud Lab
 
 A centralized, high-security home server architecture designed for \*\*Digital Forensic research\*\*, \*\*Network Defense\*\*, and \*\*Personal Data Sovereignty\*\*. Built as a practical implementation during my Master's in Cyber Forensic and Internet Security.
 
 
-\## 🏗️ System Architecture
+🏗️ System Architecture
 
 Sentinel-Node transforms a standard old Intel i3/i5/i7 hardware stack into a "Digital Vault" using a modular Docker-compose orchestration. 
 
 
-\### 🔍 Cyber Forensic Lab
+🔍 Cyber Forensic Lab
 
 \* \*\*FileBrowser:\*\* Remote management and ingestion of evidence for the 1TB Seagate HDD array.
 
@@ -17,7 +17,7 @@ Sentinel-Node transforms a standard old Intel i3/i5/i7 hardware stack into a "Di
 \* \*\*Vaultwarden:\*\* Bitwarden-compatible server for encrypted investigation credential management.
 
 
-\### 🛡️ Network \& Infrastructure
+🛡️ Network \& Infrastructure
 
 \* \*\*AdGuard Home:\*\* Network-wide DNS sinkhole for malware blocking and forensic traffic analysis.
 
@@ -28,14 +28,14 @@ Sentinel-Node transforms a standard old Intel i3/i5/i7 hardware stack into a "Di
 \* \*\*Watchtower:\*\* Automated container lifecycle management and security patching.
 
 
-\## 📸 Dashboard (Mission Control)
+📸 Dashboard (Mission Control)
 
 !\[Dashboard](./dashboard.png)
 
 \*Centralized management console via 'Homepage' showing real-time service heartbeats.\*
 
 
-\## 📂 Project Structure
+📂 Project Structure
 
 ```text
 
