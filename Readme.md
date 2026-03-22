@@ -1,27 +1,11 @@
 \# 🛡️ Sentinel-Node: Cyber Forensic \& Private Cloud Lab
 
-
-
-\[!\[Docker](https://img.shields.io/badge/Docker-24.0.5-blue?logo=docker)](https://www.docker.com/)
-
-\[!\[License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-\[!\[Uptime](https://img.shields.io/badge/Uptime-99.9%25-brightgreen)](https://github.com/yourusername/Sentinel-Node)
-
-
-
 A centralized, high-security home server architecture designed for \*\*Digital Forensic research\*\*, \*\*Network Defense\*\*, and \*\*Personal Data Sovereignty\*\*. Built as a practical implementation during my Master's in Cyber Forensic and Internet Security.
-
-
-
-\---
-
 
 
 \## 🏗️ System Architecture
 
 Sentinel-Node transforms a standard Intel i5/i7 hardware stack into a "Digital Vault" using a modular Docker-compose orchestration. 
-
 
 
 \### 🔍 Cyber Forensic Lab
@@ -31,7 +15,6 @@ Sentinel-Node transforms a standard Intel i5/i7 hardware stack into a "Digital V
 \* \*\*Stirling-PDF:\*\* Privacy-first, locally-hosted PDF toolkit for forensic report sanitization.
 
 \* \*\*Vaultwarden:\*\* Bitwarden-compatible server for encrypted investigation credential management.
-
 
 
 \### 🛡️ Network \& Infrastructure
@@ -45,21 +28,11 @@ Sentinel-Node transforms a standard Intel i5/i7 hardware stack into a "Digital V
 \* \*\*Watchtower:\*\* Automated container lifecycle management and security patching.
 
 
-
-\---
-
-
-
 \## 📸 Dashboard (Mission Control)
 
 !\[Dashboard](./dashboard.png)
 
 \*Centralized management console via 'Homepage' showing real-time service heartbeats.\*
-
-
-
-\---
-
 
 
 \## 📂 Project Structure
