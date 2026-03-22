@@ -1,0 +1,50 @@
+services:
+  # Mission Control - The Dashboard you saw in image_0641fd.png
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - 3000:3000
+    volumes:
+      - ./services/homepage:/app/config
+    restart: unless-stopped
+
+  # Network Security - DNS Filtering
+  adguard:
+    image: adguard/adguardhome
+    container_name: adguardhome
+    ports:
+      - 53:53/tcp
+      - 53:53/udp
+      - 8083:80/tcp
+    volumes:
+      - ./services/adguard/work:/opt/adguardhome/work
+      - ./services/adguard/conf:/opt/adguardhome/conf
+    restart: unless-stopped
+
+  # Hardware Guard - 1TB HDD Health
+  scrutiny:
+    image: ghcr.io/analogj/scrutiny:master-omnibus
+    container_name: scrutiny
+    privileged: true
+    cap_add:
+      - SYS_RAWIO
+      - SYS_ADMIN
+    ports:
+      - 8084:8080
+    volumes:
+      - /run/udev:/run/udev:ro
+      - /dev:/dev
+      - ./services/scrutiny:/opt/scrutiny/config
+    devices:
+      - "/dev/sda:/dev/sda"
+
+  # Credential Security
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    ports:
+      - 8080:80
+    volumes:
+      - ./services/vaultwarden:/data
+    restart: unless-stopped
