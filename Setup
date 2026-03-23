@@ -1,0 +1,48 @@
+# 🚀 Sentinel-Node: Deployment Guide
+
+Follow these steps to deploy the Sentinel-Node Forensic Lab on your local hardware.
+
+## 1. Initial Host Preparation
+Before running Docker, ensure your host system (Ubuntu 24.04 recommended) is prepared for forensic monitoring.
+
+### Install Dependencies
+```bash
+sudo apt update && sudo apt install -y smartmontools lm-sensors git
+
+sudo modprobe drivetemp
+echo "drivetemp" | sudo tee -a /etc/modules
+
+sudo mkdir -p /mnt/data/services/{adguard,vaultwarden,scrutiny,homepage}
+sudo chown -R $USER:$USER /mnt/data
+
+cp services/vaultwarden/.env.example services/vaultwarden/.env
+
+docker-compose -f docker-compose-master.yml up -d
+
+Verify that all forensic nodes are operational:
+Service       Port  Verification Command  
+Dashboard     3000  curl -I localhost:3000
+DNS Shield    8083  docker logs adguardhome
+HDD Health    8084  docker logs scrutiny
+
+---
+
+### **2. Why this is "Portfolio Ready"**
+A setup guide demonstrates that you can:
+1.  **Write Technical Documentation:** You aren't just a "user"; you are an architect.
+2.  **Understand Dependencies:** You've identified that `smartmontools` and kernel modules are needed for hardware forensics.
+3.  **Think about Automation:** The steps are logical and scriptable.
+
+### **3. Final Upload to GitHub**
+
+Now, sync your completed documentation to your repository:
+
+```cmd
+:: Stage the new guide
+git add SETUP.md
+
+:: Commit the final piece
+git commit -m "Docs: Add comprehensive deployment and setup guide"
+
+:: Push to GitHub
+git push origin main
