@@ -34,11 +34,15 @@ The **'Homepage'** dashboard provides a real-time "heartbeat" of all forensic se
 ## 📂 Project Structure
 ```text
 Sentinel-Node/
-├── README.md                    # Project Documentation
-├── docker-compose-master.yml    # Master Deployment Template (Sanitized)
-├── .gitignore                   # Forensic Safety Filters
-└── services/                    # Modular Service Configuration
-    ├── adguard/                 # DNS Security & Filtering Rules
-    ├── vaultwarden/             # Encrypted Vault Configuration
-    ├── scrutiny/                # HDD S.M.A.R.T. Metrics
-    └── homepage/                # Dashboard Layout & Icons
+├── .github/
+├── services/
+│   ├── adguard/                  # DNS Config Templates
+│   ├── vaultwarden/              # Vault Environment Examples
+│   ├── scrutiny/                 # HDD Monitoring Configs
+│   └── homepage/                 # Dashboard Layouts (image_0641fd.png)
+├── .gitignore                    # Security Filter
+├── docker-compose-master.yml      # The Lab's "Brain"
+├── LICENSE                       # MIT Framework
+├── README.md                     # The "What" and "Why"
+├── REQUIREMENTS.md               # The Hardware Baseline
+└── SETUP.md                      # The "How-To" Deployment Guide
